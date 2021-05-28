@@ -1,0 +1,43 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Alamofire",
+        "repositoryURL": "https://github.com/Alamofire/Alamofire.git",
+        "state": {
+          "branch": null,
+          "revision": "f96b619bcb2383b43d898402283924b80e2c4bae",
+          "version": "5.4.3"
+        }
+      },
+      {
+        "package": "hubkit-model-swift",
+        "repositoryURL": "https://github.com/MoveUpwards/hubkit-model-swift.git",
+        "state": {
+          "branch": null,
+          "revision": "88d93fdbf4ab8c10fd84c6a423b54d5c518a716f",
+          "version": "2.0.0"
+        }
+      },
+      {
+        "package": "hubkit-service-api",
+        "repositoryURL": "https://github.com/MoveUpwards/hubkit-service-api.git",
+        "state": {
+          "branch": null,
+          "revision": "993e5999b5061a15b8c48459e2459b420068eab1",
+          "version": "2.0.0"
+        }
+      },
+      {
+        "package": "Offenbach",
+        "repositoryURL": "https://github.com/MoveUpwards/Offenbach.git",
+        "state": {
+          "branch": null,
+          "revision": "8ab924bd8f4f2d272ef55895cd8d3fd074b90702",
+          "version": "2.2.4"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
