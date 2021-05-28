@@ -5,15 +5,13 @@
 //  Created by lgriffie on 06/04/2021.
 //
 
-#if canImport(Combine)
-
 import Alamofire
-import HubkitModel
 import Combine
 import Foundation
+import HubkitApi
+import HubkitModel
 import Offenbach
 
-@available(iOS 13.0, *)
 extension Account {
     /// Get the current authenticated user
     public static func me() -> AnyPublisher<Self, Error> {
@@ -24,5 +22,3 @@ extension Account {
         }.eraseToAnyPublisher()
     }
 }
-
-#endif

@@ -5,15 +5,13 @@
 //  Created by lgriffie on 06/04/2021.
 //
 
-#if canImport(Combine)
-
 import Alamofire
-import HubkitModel
 import Combine
 import Foundation
+import HubkitApi
+import HubkitModel
 import Offenbach
 
-@available(iOS 13.0, *)
 extension Device {
     /// Create a new device
     public func create() -> AnyPublisher<Self, Error> {
@@ -51,5 +49,3 @@ extension Device {
         }.eraseToAnyPublisher()
     }
 }
-
-#endif

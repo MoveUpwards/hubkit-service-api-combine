@@ -5,8 +5,8 @@ import PackageDescription
 let package = Package(
     name: "hubkit-service-api-combine",
     platforms: [
-        .iOS(.v10),
-        .macOS(.v10_13)
+        .iOS(.v13),
+        .macOS(.v10_15)
     ],
     products: [
         .library(

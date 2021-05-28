@@ -5,15 +5,13 @@
 //  Created by lgriffie on 06/04/2021.
 //
 
-#if canImport(Combine)
-
 import Alamofire
-import HubkitModel
 import Combine
 import Foundation
+import HubkitApi
+import HubkitModel
 import Offenbach
 
-@available(iOS 13.0, *)
 extension RawData {
     /// Create a new session raw data
     public static func create(in session: HubkitModel.Session,
@@ -36,5 +34,3 @@ extension RawData {
         }.eraseToAnyPublisher()
     }
 }
-
-#endif
